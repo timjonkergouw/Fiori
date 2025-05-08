@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1f1f1f;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color: #2c2c2c;
+    color: white;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    display: flex;
+    gap: 25px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.2s ease;
+}
+
+.nav-links a:hover {
+    color: #1e90ff;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin-right: 150px;
+}
+
+.logo img {
+    height: 60px;
+
+}
+
+.icons {
+    display: flex;
+    gap: 20px;
+    font-size: 18px;
+}
+
+.icons a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.2s ease;
+}
+
+.icons a:hover {
+    color: #1e90ff;
+}
+
+.hero-gif {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.hero-gif img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+.overlay {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 200px;
+    background: linear-gradient(to top, #1f1f1f, rgba(31, 31, 31, 0));
+
+}
+
+
+
+.new-arrivals {
+    width: 100%;
+    color: white;
+    text-align: left;
+    padding: 50px 0;
+    font-size: 2rem;
+    font-weight: bold;
+}
